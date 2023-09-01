@@ -24,27 +24,38 @@ A migraine is a particularly painful type of headache, which patients sometimes 
 ```{r}
 10/43
 ```
-\textcolor{blue}{23.3\% of patients in the treatment group were pain-free 24 hours after receiving acupuncture.}  
+
+  \textcolor{blue}{23.3\% of patients in the treatment group were pain-free 24 hours after receiving acupuncture.}  
 
 (b) What percent were pain-free in the control group?  
 ```{r}
 2/46
 ```
 
-\textcolor{blue}{4.3 \% were pain-free in the control group.}  
+  \textcolor{blue}{4.3 \% were pain-free in the control group.}  
 
-(c) In which group did a higher percentage of patients become pain-free 24 hours after receiving acupuncture?  
-\textcolor{blue}{Treatment group had a higher percentage of patients become pain-free 24 hours after receiving acupuncture.}  
+(c) In which group did a higher percentage of patients become pain-free 24 hours after receiving acupuncture? 
+
+    \textcolor{blue}{Treatment group had a higher percentage of patients become pain-free 24 hours after receiving acupuncture.}  
 
 (d) Your findings so far might suggest that acupuncture is an effective treatment for migraines for all people who suffer from migraines. However, this is not the only possible conclusion that can be drawn based on your findings so far. What is one other possible explanation for the observed difference between the percentages of patients that are pain-free 24 hours after receiving acupuncture in the two groups?  
-\textcolor{blue}{Since this study only includes female patients, it may be possible that women with migrainesare are more likely to have a positive reaction to acupuncture.}  
+    
+    \textcolor{blue}{Since this study only includes female patients, it may be possible that women with migrainesare are more likely to have a positive reaction to acupuncture.}  
 
 ## Question 2 
 The Buteyko method is a shallow breathing technique developed by Konstantin Buteyko, a Russian doctor, in 1952. Anecdotal evidence suggests that the Buteyko method can reduce asthma symptoms and improve quality of life. In a scientific study to determine the effectiveness of this method, researchers recruited 600 asthma patients aged 18-69 who relied on medication for asthma treatment. These patients were randomly split into two research groups: one practiced the Buteyko method and the other did not. Patients were scored on the quality of life, activity, asthma symptoms, and medication reduction on a scale from 0 to 10. On average, the participants in the Buteyko group experienced a significant.
 
 (a) Identify the main research question of the study. 
+
+    \textcolor{blue}{Is Buteyko method an effective approach to reduce asthma symptoms and improve quality of life}
+
 (b) Who are the subjects in this study, and how many are included? 
+    
+    \textcolor{blue}{Asthma patients aged 18-69 who relied on medication for asthma treatment. 600 subjects are included.}
+
 (c) What are the variables in the study? Identify each variable as numerical or categorical. If numerical, state whether the variable is discrete or continuous. If categorical, state whether the variable is ordinal. 
+
+    \textcolor{blue}{quality of life score, activity score, asthma symptoms score, and medication reduction score. all of them are numerical and discrete. }
   
 ## Question 3 
 Researchers hypothesized that a particular taste receptor in hummingbirds, T1R1-T1R3, played a primary role in dictating taste behavior; specifically, in determining which compounds hummingbirds detect as sweet. In a series of field tests, hummingbirds were presented simultaneously with two filled containers, one containing test stimuli and a second containing sucrose. The test stimuli included aspartame, erythritol, water, and sucrose. Aspartame is an artificial sweetener that tastes sweet to humans but is not detected by hummingbird T1R1-T1R3, while erythritol is an artificial sweetener known to activate T1R1-T1R3. Data were collected on how long a hummingbird drank from a particular container for a given trial, measured in seconds. For example, in one field test comparing aspartame and sucrose, a hummingbird drank from the aspartame container for 0.54 seconds and from the sucrose container for 3.21 seconds.
