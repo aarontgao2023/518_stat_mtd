@@ -1,0 +1,13 @@
+---
+title: |
+  | APLD STAT MTD BIOMED INFORMTCS
+  | Assignment 2
+author: "Tianchuan Gao"
+date: "2023-09-01"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
