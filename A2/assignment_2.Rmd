@@ -1,7 +1,7 @@
 ---
 title: |
   | APLD STAT MTD BIOMED INFORMTCS
-  | Assignment 2
+  | Assignment 3
 author: "Tianchuan Gao"
 date: "2023-09-01"
 output: pdf_document
@@ -10,4 +10,173 @@ output: pdf_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+
+## Question 1
+### (a)
+$$
+E[X] = 100*0.13 = 13
+$$
+Therefore, the expected number of smokers in a random sample of 100 students from this university is **13**
+
+### (b)
+
+## Question 2
+### (a)
+```{r}
+1-pnorm(83,77,5)
+```
+the probability of observing an 83F temperature or higher in LA during a randomly chosen day in June is **0.115 **
+
+### (b)
+```{r}
+qnorm(.1,77,5)
+```
+temperature of the coldest 10% of the days during June in LA is **70.59**
+
+## Question 3
+### (a)
+$X \sim bin(15,0.45)$  
+$\mu = np = 15*0.45 = 6.75$  
+$\sigma = \sqrt{np(1-p)} = \sqrt{15*0.45*0.55} = 1.93$  
+expected value is **6.75** and standard deviation is **1.93**
+
+### (b)
+$X \sim bin(15,0.08)$ 
+```{r}
+1-dbinom(0, 15, .08)-dbinom(1, 15, .08)-dbinom(2, 15, .08)
+```
+the probability that 3 or more of the people in this sample could donate blood to a patient with Type O- blood is **0.113**
+
+## Question 4
+$X \sim bin(250,0.3)$ 
+
+### (a)
+```{r}
+dbinom(60,250,.3)
+```
+the probability that exactly 60 stocks are infected is **0.006**
+
+### (b)
+```{r}
+pbinom(60,250,.3)
+```
+the probability that at most 60 stocks are infected is **0.021**
+
+### (c)
+```{r}
+sum(dbinom(80:250, 250, 0.3))
+```
+the probability that at least 80 stocks are infected is **0.265**
+
+### (d) 
+```{r}
+pbinom(100,250,.3)
+```
+take a random sample of 250 is reasonable
+
+## Question 5
+### (a)
+```{r}
+1-pnorm(2.6)
+```
+the probability that an outcome Z is greater than 2.60 is **0.005**
+
+### (b)
+```{r}
+pnorm(1.35)
+```
+the probability that Z is less than 1.35 is **0.911**
+
+### (c)
+```{r}
+pnorm(3.1) - pnorm(-1.7)
+```
+the probability that Z is between -1.70 and 3.10 is **0.954**
+
+### (d)
+```{r}
+qnorm(0.85)
+```
+cuts off the upper 15% of the distribution is **1.036**
+
+### (e)
+```{r}
+qnorm(0.2)
+```
+the lower 20% of the distribution is **-0.842**
+
+## Question 6
+### (a)
+```{r}
+1 - pnorm(4948, 4313, 583)
+```
+**13.8%** of the triathletes in the group did he finish faster than
+
+### (b)
+```{r}
+1 - pnorm(5513, 5261, 807)
+```
+**37.7%** of the triathletes in the group did she finish faster than
+
+### (c)
+```{r}
+qnorm(0.05, 4313, 583)
+```
+cutoff time for the fastest 5% of athletes in the men’s group is **3354**
+
+### (d)
+```{r}
+qnorm(0.9, 5261, 807)
+```
+cutoff time for the slowest 10% of athletes in the women’s group is **6295**
+
+## Question 7
+### (a)
+
+### (b)
+Yes, these data appear to follow a normal distribution.  
+points follow the line on the normal probability plot.
+
+## Question 8
+### (a)
+$\lambda = 1,  \mu = \lambda = 1, \sigma = \sqrt{\lambda} = 1$  
+the mean is **1** and the standard deviation is **2**
+
+### (b)
+```{r}
+ppois(3, lambda = 1)
+```
+the probability that this stenographer makes at most 3 typos in a given hour is **0.981**
+
+### (c)
+```{r}
+1 - ppois(4, lambda = 3)
+```
+the probability that this stenographer makes at least 5 typos over 3 hours is **0.185**
+
+## Question 9
+### (a)
+$P(blue^{c})*P(blue^{c})*P(blue) = 0.875 * 0.875 * 0.125 = 0.096$
+
+### (b)
+average number of children a pair of parents would have before having a blue-eyed child follows Geometric distribution  
+$\mu = 1/p = 8$  
+**8** children would such a pair of parents have before having a blue-eyed child  
+$\sigma = \sqrt{(1-p)/p^2} = 7.483$  
+the standard deviation of the number of children they would expect to have until the first blue-eyed child is **7.483**  
+
+## Question 10
+### (a)
+**42** entries are in the table for the joint distribution of X and Y  
+**15** entries are 0  
+
+### (b)
+$$P(X=1 ; Y=0) = 1/6 * 1/2 = 1/12$$  
+
+### (c)
+$$P(X=1 ; Y=2) = 0$$  
+
+### (d)
+$$P(X=6 ; Y=3) = 1/6 * \left(\begin{array}{l}6 \\ 3\end{array}\right) .5^3*.5^3 =  0.052$$  
 
